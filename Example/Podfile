@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LeigodAPM_Example' do
+  pod 'LeigodAPM', :path => '../'
+
+  target 'LeigodAPM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
