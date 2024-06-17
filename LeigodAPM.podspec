@@ -40,4 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'WCDB.swift', '~> 1.1.0'
    s.dependency 'SnapKit'
+   s.dependency 'NNKit'
+   
 end

@@ -63,7 +63,6 @@
 		282E45E5AA4B10AFCFB4FACE52D18DD8 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37DEBE120F119324B95F6F43566E748 /* Expression.swift */; };
 		287FF3FDFEC5A0E750BF668C29638DA9 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E03CA8FF096C5929EC648B55D224F /* utf.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		290DC2846823A59F63BFA2D71396A813 /* RecyclableCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4578918A79FEA557F2C9AB497E3A9BC /* RecyclableCore.swift */; };
-		29D3AB0CB4E01EA492277763E82F2A84 /* UIColor+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED204072F10F0DF333EE34BFA6900303 /* UIColor+AppBaseKit.swift */; };
 		2A16D7B7A8483CEAD770B4BC3434EB32 /* sqlite3rbu.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E964FE1ADB3A422EC4C435080C185B5 /* sqlite3rbu.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A8EBCE33346CBA905FD7266547D9EC8 /* fkey.c in Sources */ = {isa = PBXBuildFile; fileRef = 521B2CD8BEE0EBCCA82160F49EFBD6F1 /* fkey.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2ABE4BC4C7AED72A7F0CA87C0D2FF51C /* WCDBOptimizedSQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5019DC8495675FC212AAAFECE9327C9D /* WCDBOptimizedSQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -210,7 +209,6 @@
 		93680689E250191F86036B587E557EF0 /* vdbe.c in Sources */ = {isa = PBXBuildFile; fileRef = 7913A6DA174FBAA275B8A624E6943428 /* vdbe.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9508B5F17148789628F6498F1C7C4A5B /* MonitorSystemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA69821D1B17337A07916B289C605224 /* MonitorSystemType.swift */; };
 		954501694B131A924DBBE5E325FC4B38 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D55968815CB06CCEBA4709E847B5A5 /* Property.swift */; };
-		95B1C76D4FBCE755BE67CF51E78D7B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
 		978C7C9F26DC8C37FE3D84CCE5CAFAD7 /* fts3_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 726CC6D5E792BED705B200FA568016B5 /* fts3_porter.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		978CF9A2DB1897D09364D4DA01288A4F /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB300D0B34D01BAE571D1A2BF9E91103 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		995EEAB7C21F2A526FA82A38F4244F5C /* StatementPragma.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F63D09B37EBFE83C3DB797162F703 /* StatementPragma.swift */; };
@@ -234,7 +232,7 @@
 		A5F914DBD6AE8D8450AFDF592602E6EF /* sqlite3rbu.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF38D1B21741898F201DD1B1451372 /* sqlite3rbu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A6B7491C9E7C5A9021BD1E643A2148E6 /* opcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E0005E3D02BD2B85A1BA141830BC98 /* opcodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A722BC3F5788EF232F7E9E14788C40A7 /* Describable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071FB64950ED4F4B2D896603EDDF2AE /* Describable.swift */; };
-		A79658B6AC64E740706EDC008F27651E /* Pods-LeigodAPM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E41F4588AB88E96A324E983C0678AA /* Pods-LeigodAPM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79658B6AC64E740706EDC008F27651E /* Pods-LeigodAPM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7AD4F3DECEAEE2249E7EC4D9E46E5A /* Pods-LeigodAPM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9792D6969EE4F77D0EA0B45568F344E /* RowSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D915B02788CE7070F4805FE319D6D /* RowSelect.swift */; };
 		A9DA9A0E73FD3CA05890299035B92DAF /* fts3_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BD63E3972E72D4D66269C20543D895 /* fts3_hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB22EAEB2D5604913576F71CBF508B0F /* build.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2AEC77D0897F70D0A0A665A5C4350 /* build.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -305,8 +303,7 @@
 		E13FDD33F7BE4B5F27CC8DA92A318103 /* mutex_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = D16E965514EE4F07969860CBE4C3CC8A /* mutex_unix.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E14723D7DF34058CF75D4FC85EDE5134 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = E50502BFF7A36A63006733D15CF6A1A3 /* malloc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E15EE83452FA3DE5D1BBA4ACD8C88C08 /* sqlcipher.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A9BF2DBF0D90A9C6B460926B0D2CB8 /* sqlcipher.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3289DBC133E7AFF00D172AEEBD88FB4 /* Pods-LeigodAPM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AC3877CCC52F53CF9E3EFD5858E2F2 /* Pods-LeigodAPM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5FF7B1B06DFB2D020509B8749984BC0 /* Pods-LeigodAPM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B083492C9547347101B3D61AEC3A6D73 /* Pods-LeigodAPM_Example-dummy.m */; };
+		E5FF7B1B06DFB2D020509B8749984BC0 /* Pods-LeigodAPM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C8949BFF97ABD75FCC58157B8EE44 /* Pods-LeigodAPM_Example-dummy.m */; };
 		E60EE5F7012E534A7246118CAEB6288F /* prepare.c in Sources */ = {isa = PBXBuildFile; fileRef = DFE9CABBD70080311073D44DD0E3B345 /* prepare.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E64504C7F4D7D03759C1065F44BA3375 /* StatementRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71350E4024933D569B2BBA178252CDF /* StatementRelease.swift */; };
 		E65696390D978FDA00370D4204F5CADE /* complete.c in Sources */ = {isa = PBXBuildFile; fileRef = EF3E072CE0F40089C487C22A738A49B0 /* complete.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -329,7 +326,6 @@
 		F233D4691E797FF03FBCC3078F76D627 /* mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = EFC6594E1C607FDCE7C2B6BF6B1CD1D8 /* mutex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F2EDE786F12CD5ED0C61A3061DDB045C /* fts3.h in Headers */ = {isa = PBXBuildFile; fileRef = 0724C857CAA33796306A9503FDBC1641 /* fts3.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F34110C87DB2F2933B7CD3A23E16DB3D /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4629F344464C356DF3F69059EA8F6A7 /* Lock.swift */; };
-		F3B69B4F146318DA9A242B275CC6D719 /* Pods-LeigodAPM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C11BE2F6816F8FEC37BE12754B877936 /* Pods-LeigodAPM_Tests-dummy.m */; };
 		F3E490B616C3E9A292AE3D8944B31DBD /* treeview.c in Sources */ = {isa = PBXBuildFile; fileRef = DEE2FAF9F80925A9A935489270317BA1 /* treeview.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F47A7920769EF0F802063DD302942B9B /* TableConstraintBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C4DC2963AE3929884E7EDADBA32F6 /* TableConstraintBinding.swift */; };
 		F4D1C63D3B3214186D9349D558515599 /* crypto_impl.c in Sources */ = {isa = PBXBuildFile; fileRef = FAFD24F519FF52AA32E145EAC26D67BE /* crypto_impl.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -415,13 +411,6 @@
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		6EAD4EE41DCF47CC0EDF092CA06AEF9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9751390A022C36C073641F04BE82DF21;
-			remoteInfo = "Pods-LeigodAPM_Example";
-		};
 		9CC4CD3A21EEBB7854E2E838CED946FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -459,14 +448,11 @@
 		1097B548E841519346CCC24ED6426A82 /* WCDB-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCDB-Bridging.h"; path = "swift/source/util/WCDB-Bridging.h"; sourceTree = "<group>"; };
 		10A05FC0370012EF43A80486F696CF11 /* fts3Int.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3Int.h; path = ext/fts3/fts3Int.h; sourceTree = "<group>"; };
 		11C7ABA178E705761A97419553AD0FBE /* StatementDetach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementDetach.swift; path = swift/source/abstract/StatementDetach.swift; sourceTree = "<group>"; };
-		1306DEF22AF62B59F0A7127C0D83EAA0 /* Pods-LeigodAPM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeigodAPM_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		14BF7CDE4A835B486EDF08D12490EFAA /* Pods-LeigodAPM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeigodAPM_Tests-Info.plist"; sourceTree = "<group>"; };
-		174A247628224C1483857FDF88C8BC74 /* Pods-LeigodAPM_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeigodAPM_Tests"; path = Pods_LeigodAPM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E0869D8313F2306A8169F5961A194B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		1974419878777C3535D03457AE931C8E /* ColumnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnType.swift; path = swift/source/abstract/ColumnType.swift; sourceTree = "<group>"; };
 		1A7DAA1857ECF08892B744446818376B /* NetworkFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlow.swift; sourceTree = "<group>"; };
 		1C4E0596CBD49968E9AD22F79EA11584 /* sqliterk_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_util.h; path = repair/sqliterk_util.h; sourceTree = "<group>"; };
-		1D2D3C9E4E9CB1F7A06FAEB54CB5AFA2 /* LeigodAPM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LeigodAPM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D2D3C9E4E9CB1F7A06FAEB54CB5AFA2 /* LeigodAPM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LeigodAPM.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		1D493F0D091B23FDF9AA976C83FEFA53 /* TableCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableCodable.swift; path = swift/source/core/codable/TableCodable.swift; sourceTree = "<group>"; };
 		1F04E2F20B37A4711AD5783D09042D50 /* sqliterk_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = sqliterk_output.cpp; path = repair/sqliterk_output.cpp; sourceTree = "<group>"; };
 		1F631D2D400604B9FB67CBE5EE313F91 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
@@ -488,7 +474,7 @@
 		2D3F2BFF54F87663FD96D577639F00BA /* vtab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vtab.c; path = src/vtab.c; sourceTree = "<group>"; };
 		2DA78592631FB03A6D1873A5CC1DC649 /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = table.c; path = src/table.c; sourceTree = "<group>"; };
 		2DD3BBB83021CC23549DD52F84A58460 /* JoinClause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JoinClause.swift; path = swift/source/abstract/JoinClause.swift; sourceTree = "<group>"; };
-		2E0E8BBEE4992C56B5FE4AF710E79EA8 /* Pods-LeigodAPM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeigodAPM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E8DB84051C5D6158A75942BEDCC0707 /* Pods-LeigodAPM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeigodAPM_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2EE575DDA0D43383DA53E7772ED430CB /* fts3_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_tokenizer.c; path = ext/fts3/fts3_tokenizer.c; sourceTree = "<group>"; };
 		3021CBCC83A69253BE4A5D74CE5D2C6B /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = swift/source/core/base/Config.swift; sourceTree = "<group>"; };
 		3024BD7DA55A97556CACA8EC7D9CAE6E /* StatementInsert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementInsert.swift; path = swift/source/abstract/StatementInsert.swift; sourceTree = "<group>"; };
@@ -502,6 +488,7 @@
 		3869B2A4A0E19385061DAD93B7826922 /* os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os.h; path = src/os.h; sourceTree = "<group>"; };
 		3A669A12B69A63E0BEF5B0382A3A729B /* WCDB.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCDB.swift; path = WCDBSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C30FEDE9ACCA8B26862AB081B21BAFE /* Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convenience.swift; path = swift/source/util/Convenience.swift; sourceTree = "<group>"; };
+		3C7AD4F3DECEAEE2249E7EC4D9E46E5A /* Pods-LeigodAPM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeigodAPM_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D09307BAA1F13A536EA079151FD1955 /* mutex_wcdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex_wcdb.h; path = src/mutex_wcdb.h; sourceTree = "<group>"; };
 		3EF3321084E6099C74E185EB672611B4 /* CrashEye.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashEye.swift; sourceTree = "<group>"; };
 		3F1BB5A93F5FD87AAE68976436FD5ACB /* HandlePool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandlePool.swift; path = swift/source/core/base/HandlePool.swift; sourceTree = "<group>"; };
@@ -546,7 +533,7 @@
 		57E038B247F9DC896CAEE845761F18EB /* backup.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = backup.c; path = src/backup.c; sourceTree = "<group>"; };
 		59266253D74EE7EAA6916164A376936F /* TableEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableEncoder.swift; path = swift/source/core/codable/TableEncoder.swift; sourceTree = "<group>"; };
 		5A0159FAF0CBBE88D671C0BBD2BB3065 /* sqliterk.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk.c; path = repair/sqliterk.c; sourceTree = "<group>"; };
-		5A9E40FDD4D32DA2E9EC6B5791838147 /* LeigodAPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeigodAPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9E40FDD4D32DA2E9EC6B5791838147 /* LeigodAPM */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeigodAPM; path = LeigodAPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2C56FF779F4C1A38392FE104964452 /* StatementCreateIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementCreateIndex.swift; path = swift/source/abstract/StatementCreateIndex.swift; sourceTree = "<group>"; };
 		5B308B38C20E23BC4118490DDEF3B412 /* vdbeapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbeapi.c; path = src/vdbeapi.c; sourceTree = "<group>"; };
 		5BAC0EEA910CC3A80E3D71CED8DE26F7 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
@@ -558,12 +545,9 @@
 		5EE55A65AE73216DEEC6F3BEBA5DC585 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		5F05F770CB7AB93F74366995451A4489 /* EyesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EyesManager.swift; path = LeigodAPM/Classes/EyesManager.swift; sourceTree = "<group>"; };
 		5F4AA6B35D2827CDFDDDDE5116140B52 /* ThreadLocal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadLocal.swift; path = swift/source/util/ThreadLocal.swift; sourceTree = "<group>"; };
-		5F55D8D39F416E9D869B83D063BD13B0 /* Pods-LeigodAPM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeigodAPM_Tests.modulemap"; sourceTree = "<group>"; };
 		5F9FEFE54E15F0661836FD30F80CD4D9 /* mem5.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem5.c; path = src/mem5.c; sourceTree = "<group>"; };
 		5FDA5B1082D11B1F8FF4C1412E915AC1 /* sqliterk_util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_util.c; path = repair/sqliterk_util.c; sourceTree = "<group>"; };
-		601DCE9048BA2E72879D619EB0B9C355 /* Pods-LeigodAPM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeigodAPM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		604EBFB5A02D029395E8AEC18DE069BF /* where.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = where.c; path = src/where.c; sourceTree = "<group>"; };
-		60E41F4588AB88E96A324E983C0678AA /* Pods-LeigodAPM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeigodAPM_Example-umbrella.h"; sourceTree = "<group>"; };
 		614D1393B11FAEE1CAB774EDCD558A43 /* wherecode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = wherecode.c; path = src/wherecode.c; sourceTree = "<group>"; };
 		6173A7EFBF426B5D15AC5C31709E2F91 /* Pods-LeigodAPM_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeigodAPM_Example"; path = Pods_LeigodAPM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B33C9C07FC52DB648C77D402633CC3 /* Transaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = swift/source/core/base/Transaction.swift; sourceTree = "<group>"; };
@@ -583,6 +567,7 @@
 		6AA0142972BA8AE3245D9602FCED5DBE /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
 		6AD1A820D0AA3B9925BC0452CAB6FD40 /* Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Order.swift; path = swift/source/abstract/Order.swift; sourceTree = "<group>"; };
 		6E07FED4AE838F866F20ACB169044938 /* WCDBOptimizedSQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDBOptimizedSQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		6EFB59A37EE82DA56D24B86AB687D739 /* Pods-LeigodAPM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeigodAPM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6FC8BD57A846620D9AEE14EBDCF70D1A /* MonitorSysNetFlowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonitorSysNetFlowView.swift; sourceTree = "<group>"; };
 		7139E151BAFF1C235904DC14384EB695 /* btmutex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = btmutex.c; path = src/btmutex.c; sourceTree = "<group>"; };
 		71ABC780F830E107275B993305D06E9F /* userauth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = userauth.c; path = ext/userauth/userauth.c; sourceTree = "<group>"; };
@@ -607,21 +592,20 @@
 		7EC2483469EA4CE97FCB62A1A7B72517 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = swift/source/util/File.swift; sourceTree = "<group>"; };
 		7EDA3C2CE5F447CEE0F22172BAAB93FE /* Handle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handle.swift; path = swift/source/abstract/Handle.swift; sourceTree = "<group>"; };
 		82E34DC96816D6D897260E01CA8771B1 /* delete.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = delete.c; path = src/delete.c; sourceTree = "<group>"; };
-		8334CFB02953A1F7078BF58327108671 /* Pods-LeigodAPM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeigodAPM_Example-Info.plist"; sourceTree = "<group>"; };
 		84DC279027F72171A9CAEACDB7CB3BD9 /* HandleStatement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandleStatement.swift; path = swift/source/abstract/HandleStatement.swift; sourceTree = "<group>"; };
 		852D9A1AA2AA3BDB17F9D5A8C98EB61A /* parse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
 		85542E7081D620E9B80D5894022190F9 /* mem0.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem0.c; path = src/mem0.c; sourceTree = "<group>"; };
 		85C55B09BA8C66BED4B325150DD7EEFF /* btree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = btree.h; path = src/btree.h; sourceTree = "<group>"; };
 		86028756B1E7F08A281F8D701B77381F /* btree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = btree.c; path = src/btree.c; sourceTree = "<group>"; };
-		87CC7D74DDAAE6F33BA29FBCEFC4B346 /* Pods-LeigodAPM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeigodAPM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8844886006931F3CB091E995F7BC4A08 /* fts5.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fts5.c; sourceTree = "<group>"; };
-		88AC3877CCC52F53CF9E3EFD5858E2F2 /* Pods-LeigodAPM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeigodAPM_Tests-umbrella.h"; sourceTree = "<group>"; };
 		88BD63E3972E72D4D66269C20543D895 /* fts3_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_hash.h; path = ext/fts3/fts3_hash.h; sourceTree = "<group>"; };
 		88CFB3CDE9E436D2761F427663F7D829 /* fts3_aux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_aux.c; path = ext/fts3/fts3_aux.c; sourceTree = "<group>"; };
+		890DC513A25429147453E1537CEE8CB7 /* Pods-LeigodAPM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeigodAPM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		893B923ADFAEF27A94029E90718124BD /* CrashRecordModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashRecordModel.swift; sourceTree = "<group>"; };
 		895D0A34076ED65BAB77F0A3D885E6A2 /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = src/mutex.h; sourceTree = "<group>"; };
 		899543C3BCC6F7D4204E0A579F16FEEF /* resolve.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = resolve.c; path = src/resolve.c; sourceTree = "<group>"; };
 		89982DC6E546D44836EF186E7D30911A /* upsert.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = upsert.c; path = src/upsert.c; sourceTree = "<group>"; };
+		89B7DCE0E0E25C5CDEF4A20E4EE0209E /* Pods-LeigodAPM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeigodAPM_Example-Info.plist"; sourceTree = "<group>"; };
 		8A17E2A98C6C159E23A7E4D05848EE85 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		8A4381F977BE447DA07C40E90F0A5487 /* Table.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Table.swift; path = swift/source/core/interface/Table.swift; sourceTree = "<group>"; };
 		8ABCABB1B8A0AF619FAAD7CC8D63C829 /* bitvec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bitvec.c; path = src/bitvec.c; sourceTree = "<group>"; };
@@ -661,6 +645,7 @@
 		9F53A2246D964F16B013C790963F1547 /* select.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = select.c; path = src/select.c; sourceTree = "<group>"; };
 		9FBA3D72F309C6213C0BC45D0276C6D6 /* sqliteLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliteLimit.h; path = src/sqliteLimit.h; sourceTree = "<group>"; };
 		9FF5D5EE5BCE5F2E063914F94FAB59AB /* sqliterk_column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_column.h; path = repair/sqliterk_column.h; sourceTree = "<group>"; };
+		A0AD8FB154ACFB8FB61B938D751389D8 /* Pods-LeigodAPM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeigodAPM_Example.modulemap"; sourceTree = "<group>"; };
 		A0B1E6C274680AB60283FE611C5B4F07 /* Select.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Select.swift; path = swift/source/core/interface/Select.swift; sourceTree = "<group>"; };
 		A1019EEBCA9B1BC89E8B977C736C7908 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		A139C02F239F052B07BAB3F8F0ED8724 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = swift/source/abstract/Statement.swift; sourceTree = "<group>"; };
@@ -675,6 +660,7 @@
 		A87D3B08CC95B6D5DDF86D51D062F80C /* legacy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = legacy.c; path = src/legacy.c; sourceTree = "<group>"; };
 		A8F2D28CD3E980DC73F02124556313FF /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = util.c; path = src/util.c; sourceTree = "<group>"; };
 		A97B850C5D336D49CAA7BAF44714E4C4 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		A98C8949BFF97ABD75FCC58157B8EE44 /* Pods-LeigodAPM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeigodAPM_Example-dummy.m"; sourceTree = "<group>"; };
 		AAD8D11C5C247B4F47349B64F413CAD8 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		AC7C16FCBEB10B82D4FB42C4B1499864 /* NetObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetObjc.h; sourceTree = "<group>"; };
 		ACA04149EC986168ABBCDC9C9629DB71 /* Tokenize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokenize.swift; path = swift/source/abstract/Tokenize.swift; sourceTree = "<group>"; };
@@ -684,10 +670,8 @@
 		AFB597A8C2D7805B182A67D1A8AC3A52 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		AFE35953E87ADD1EAB0D5DB46C5D17BA /* sqliterk_pager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_pager.h; path = repair/sqliterk_pager.h; sourceTree = "<group>"; };
 		AFEC60CB090880B4E45DDB02AD1B1B70 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		B083492C9547347101B3D61AEC3A6D73 /* Pods-LeigodAPM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeigodAPM_Example-dummy.m"; sourceTree = "<group>"; };
 		B3CF92365D6AE0F35C3602CF6C0872AE /* WCDBOptimizedSQLCipher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCDBOptimizedSQLCipher; path = sqlcipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B409008E5F3860C22853852F7EE7D0F4 /* ModuleArgument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleArgument.swift; path = swift/source/abstract/ModuleArgument.swift; sourceTree = "<group>"; };
-		B427712D1E8A9BA53451DF0C16418A7F /* Pods-LeigodAPM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeigodAPM_Example.modulemap"; sourceTree = "<group>"; };
 		B47F38AC0655420A2D0B99D7A07A42E5 /* Interface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interface.swift; path = swift/source/core/interface/Interface.swift; sourceTree = "<group>"; };
 		B494EADDA5AC697BE92E3D7147197213 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		B4B8E58BC45FFE026356EB32146F6B5E /* mem3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem3.c; path = src/mem3.c; sourceTree = "<group>"; };
@@ -700,10 +684,8 @@
 		BA73BE9F32125B266B62E08E09394DE5 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		BB300D0B34D01BAE571D1A2BF9E91103 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = ext/fts3/fts3_tokenizer.h; sourceTree = "<group>"; };
 		BCE5A285F75099663FE3E0C1C12930D6 /* update.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = update.c; path = src/update.c; sourceTree = "<group>"; };
-		BF95BDC54D0556AEC27FE78FE8E1165B /* Pods-LeigodAPM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeigodAPM_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C0635F1F8FEC6288EB00D9DC13DFA980 /* StatementAttach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementAttach.swift; path = swift/source/abstract/StatementAttach.swift; sourceTree = "<group>"; };
 		C0CAEA517EB7770708EC2DE14AA011C8 /* LeigodAPM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeigodAPM-dummy.m"; sourceTree = "<group>"; };
-		C11BE2F6816F8FEC37BE12754B877936 /* Pods-LeigodAPM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeigodAPM_Tests-dummy.m"; sourceTree = "<group>"; };
 		C134280B5F90C588F64251BAB15640B7 /* os.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = os.c; path = src/os.c; sourceTree = "<group>"; };
 		C2B1B67D8C4655CC2A8D3372C21625A4 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = src/sqlite3ext.h; sourceTree = "<group>"; };
 		C2D4383119AC31F13554B40299840583 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
@@ -736,6 +718,7 @@
 		D37DEBE120F119324B95F6F43566E748 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = swift/source/abstract/Expression.swift; sourceTree = "<group>"; };
 		D4629F344464C356DF3F69059EA8F6A7 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = swift/source/util/Lock.swift; sourceTree = "<group>"; };
 		D4CB5639DF8B68AEC30966398E281B0E /* trigger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = trigger.c; path = src/trigger.c; sourceTree = "<group>"; };
+		D527E19CA9B872A609B02149887D5FFE /* Pods-LeigodAPM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeigodAPM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D53A1C656365A8462FCE50D7BD9E7340 /* RWLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RWLock.swift; path = swift/source/util/RWLock.swift; sourceTree = "<group>"; };
 		D5A228E51F98878243CE906DA68AA27D /* callback.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = callback.c; path = src/callback.c; sourceTree = "<group>"; };
 		D5F7CA85A058677900AFD75FD276E81D /* notify.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = notify.c; path = src/notify.c; sourceTree = "<group>"; };
@@ -754,7 +737,6 @@
 		DD1AE390D9BAF3440970F86687B58ED1 /* MonitorBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonitorBaseView.swift; sourceTree = "<group>"; };
 		DE277351FC45D4072D9CE20B075012D8 /* Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convertible.swift; path = swift/source/abstract/Convertible.swift; sourceTree = "<group>"; };
 		DE286B17897140F41139D310399902E2 /* os_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_common.h; path = src/os_common.h; sourceTree = "<group>"; };
-		DE4116A7D25C5134BD7BD0F714B27121 /* Pods-LeigodAPM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeigodAPM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE82C052AFC0195E452BD6FD7811EB7D /* LeigodAPM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeigodAPM.modulemap; sourceTree = "<group>"; };
 		DEE2FAF9F80925A9A935489270317BA1 /* treeview.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = treeview.c; path = src/treeview.c; sourceTree = "<group>"; };
 		DFE9CABBD70080311073D44DD0E3B345 /* prepare.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prepare.c; path = src/prepare.c; sourceTree = "<group>"; };
@@ -768,19 +750,15 @@
 		E50502BFF7A36A63006733D15CF6A1A3 /* malloc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = malloc.c; path = src/malloc.c; sourceTree = "<group>"; };
 		E5E8EF134D924D0E815D274BE3F8FA96 /* fts3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3.c; path = ext/fts3/fts3.c; sourceTree = "<group>"; };
 		E6AA64DD86C32394BD109486FA1F0156 /* attach.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = attach.c; path = src/attach.c; sourceTree = "<group>"; };
-		E6B0DEDE885A5BAD68CC0F99AC6A0737 /* Pods-LeigodAPM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeigodAPM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6EDC6E427000D832CAFB1EABD23A285 /* Pods-LeigodAPM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeigodAPM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E7FE6831DE7364B038DE3B3594847E4E /* SQLiteRepairKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLiteRepairKit-Info.plist"; sourceTree = "<group>"; };
 		EACDDDDC52B5BA442A9AF1D85188E247 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = swift/source/util/Optional.swift; sourceTree = "<group>"; };
 		EAF796AB2554E414B2C870AE70A7301D /* TableBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableBinding.swift; path = swift/source/core/binding/TableBinding.swift; sourceTree = "<group>"; };
 		EB9D4CCFF873489EA5D64EDD0FCFB367 /* alter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = alter.c; path = src/alter.c; sourceTree = "<group>"; };
 		EC94C893BB0EBDBA48F77716CAC24998 /* SQLiteRepairKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteRepairKit.h; path = repair/SQLiteRepairKit.h; sourceTree = "<group>"; };
 		ECF5AC28A65A16742C1F43D572930543 /* StatementDelete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementDelete.swift; path = swift/source/abstract/StatementDelete.swift; sourceTree = "<group>"; };
-		ED204072F10F0DF333EE34BFA6900303 /* UIColor+AppBaseKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+AppBaseKit.swift"; path = "LeigodAPM/Classes/UIColor+AppBaseKit.swift"; sourceTree = "<group>"; };
 		ED3727A6E7FD34545778E03C5B4818A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED4504D5684E1972C7D4664CC973536D /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = src/hash.h; sourceTree = "<group>"; };
 		ED5EF9D1CB622A478BF14E120622CB3A /* expr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = expr.c; path = src/expr.c; sourceTree = "<group>"; };
-		EE9669C6A88934341FD5148F54FB0E42 /* Pods-LeigodAPM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeigodAPM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EEC48AA07497711C25B019BBDD08E57E /* msvc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msvc.h; path = src/msvc.h; sourceTree = "<group>"; };
 		EF18B19B898C63CE1E83E5EE45CA88FD /* WCDBTokenize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCDBTokenize.swift; path = swift/source/core/fts/WCDBTokenize.swift; sourceTree = "<group>"; };
 		EF3E072CE0F40089C487C22A738A49B0 /* complete.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = complete.c; path = src/complete.c; sourceTree = "<group>"; };
@@ -796,6 +774,7 @@
 		F645AFB57D3DCA24F64B36B9AF490757 /* Database.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Database.swift; path = swift/source/core/base/Database.swift; sourceTree = "<group>"; };
 		F677A80A0E04D5349C9C90AF5F9552B5 /* hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash.c; path = src/hash.c; sourceTree = "<group>"; };
 		F6E31366625FE8017C6A8E2926ADA753 /* ConcurrentList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentList.swift; path = swift/source/util/ConcurrentList.swift; sourceTree = "<group>"; };
+		F743E9D3099F6861C095767FAD8BB2EF /* Pods-LeigodAPM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeigodAPM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8A9BF2DBF0D90A9C6B460926B0D2CB8 /* sqlcipher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlcipher.h; path = src/sqlcipher.h; sourceTree = "<group>"; };
 		FA16FF6BD37A7C1EA248DAEEF68B5201 /* vdbetrace.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbetrace.c; path = src/vdbetrace.c; sourceTree = "<group>"; };
 		FA28B81CB7D9FD2475243276D9C5C16E /* ConsoleController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsoleController.swift; sourceTree = "<group>"; };
@@ -844,14 +823,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D4BE51088A475C87D52FCBC47087DA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95B1C76D4FBCE755BE67CF51E78D7B92 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6455C98643C999C44A8E0BF248AA774 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -880,23 +851,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		144F4CBB43CE38BDDC90B06960E74EC6 /* Pods-LeigodAPM_Example */ = {
-			isa = PBXGroup;
-			children = (
-				B427712D1E8A9BA53451DF0C16418A7F /* Pods-LeigodAPM_Example.modulemap */,
-				E6B0DEDE885A5BAD68CC0F99AC6A0737 /* Pods-LeigodAPM_Example-acknowledgements.markdown */,
-				2E0E8BBEE4992C56B5FE4AF710E79EA8 /* Pods-LeigodAPM_Example-acknowledgements.plist */,
-				B083492C9547347101B3D61AEC3A6D73 /* Pods-LeigodAPM_Example-dummy.m */,
-				BF95BDC54D0556AEC27FE78FE8E1165B /* Pods-LeigodAPM_Example-frameworks.sh */,
-				8334CFB02953A1F7078BF58327108671 /* Pods-LeigodAPM_Example-Info.plist */,
-				60E41F4588AB88E96A324E983C0678AA /* Pods-LeigodAPM_Example-umbrella.h */,
-				1306DEF22AF62B59F0A7127C0D83EAA0 /* Pods-LeigodAPM_Example.debug.xcconfig */,
-				87CC7D74DDAAE6F33BA29FBCEFC4B346 /* Pods-LeigodAPM_Example.release.xcconfig */,
-			);
-			name = "Pods-LeigodAPM_Example";
-			path = "Target Support Files/Pods-LeigodAPM_Example";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -922,7 +876,6 @@
 				5F05F770CB7AB93F74366995451A4489 /* EyesManager.swift */,
 				21E0B7D256EA4699DB026A52502DCACC /* NNDBManager.swift */,
 				7AF87954713314E2BC21C7652781A755 /* NNOverView.swift */,
-				ED204072F10F0DF333EE34BFA6900303 /* UIColor+AppBaseKit.swift */,
 				A75326E038461ABCA65522EDE2DD908F /* UIView+NNExtension.swift */,
 				454D4187D2B866B0AC6AAE65E58158C9 /* console */,
 				F96AB62EF22B0489BE24264A0BAD2247 /* CrashEye */,
@@ -948,6 +901,19 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		2682AB7E92D8E4D76EC9189D9B8EFED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E40FDD4D32DA2E9EC6B5791838147 /* LeigodAPM */,
+				6173A7EFBF426B5D15AC5C31709E2F91 /* Pods-LeigodAPM_Example */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+				5DCCF5B5F792D4EC76585F50AC7D8D7B /* SQLiteRepairKit */,
+				3A669A12B69A63E0BEF5B0382A3A729B /* WCDB.swift */,
+				B3CF92365D6AE0F35C3602CF6C0872AE /* WCDBOptimizedSQLCipher */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3A438D49318F1ABEDBBB414958006D8D /* Support Files */ = {
@@ -1077,22 +1043,6 @@
 			path = OCBridge;
 			sourceTree = "<group>";
 		};
-		8CAC7CC218F0A3B8E1B6FF88348D7BAE /* Pods-LeigodAPM_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5F55D8D39F416E9D869B83D063BD13B0 /* Pods-LeigodAPM_Tests.modulemap */,
-				EE9669C6A88934341FD5148F54FB0E42 /* Pods-LeigodAPM_Tests-acknowledgements.markdown */,
-				E6EDC6E427000D832CAFB1EABD23A285 /* Pods-LeigodAPM_Tests-acknowledgements.plist */,
-				C11BE2F6816F8FEC37BE12754B877936 /* Pods-LeigodAPM_Tests-dummy.m */,
-				14BF7CDE4A835B486EDF08D12490EFAA /* Pods-LeigodAPM_Tests-Info.plist */,
-				88AC3877CCC52F53CF9E3EFD5858E2F2 /* Pods-LeigodAPM_Tests-umbrella.h */,
-				601DCE9048BA2E72879D619EB0B9C355 /* Pods-LeigodAPM_Tests.debug.xcconfig */,
-				DE4116A7D25C5134BD7BD0F714B27121 /* Pods-LeigodAPM_Tests.release.xcconfig */,
-			);
-			name = "Pods-LeigodAPM_Tests";
-			path = "Target Support Files/Pods-LeigodAPM_Tests";
-			sourceTree = "<group>";
-		};
 		8FB9B068C323511911FB41D3BC0B628A /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1138,13 +1088,21 @@
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
-		B163EA9C73137FA550DEEC8866136B51 /* Targets Support Files */ = {
+		94D70414AB832A1ACE8A34975BEA5441 /* Pods-LeigodAPM_Example */ = {
 			isa = PBXGroup;
 			children = (
-				144F4CBB43CE38BDDC90B06960E74EC6 /* Pods-LeigodAPM_Example */,
-				8CAC7CC218F0A3B8E1B6FF88348D7BAE /* Pods-LeigodAPM_Tests */,
+				A0AD8FB154ACFB8FB61B938D751389D8 /* Pods-LeigodAPM_Example.modulemap */,
+				890DC513A25429147453E1537CEE8CB7 /* Pods-LeigodAPM_Example-acknowledgements.markdown */,
+				F743E9D3099F6861C095767FAD8BB2EF /* Pods-LeigodAPM_Example-acknowledgements.plist */,
+				A98C8949BFF97ABD75FCC58157B8EE44 /* Pods-LeigodAPM_Example-dummy.m */,
+				2E8DB84051C5D6158A75942BEDCC0707 /* Pods-LeigodAPM_Example-frameworks.sh */,
+				89B7DCE0E0E25C5CDEF4A20E4EE0209E /* Pods-LeigodAPM_Example-Info.plist */,
+				3C7AD4F3DECEAEE2249E7EC4D9E46E5A /* Pods-LeigodAPM_Example-umbrella.h */,
+				6EFB59A37EE82DA56D24B86AB687D739 /* Pods-LeigodAPM_Example.debug.xcconfig */,
+				D527E19CA9B872A609B02149887D5FFE /* Pods-LeigodAPM_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-LeigodAPM_Example";
+			path = "Target Support Files/Pods-LeigodAPM_Example";
 			sourceTree = "<group>";
 		};
 		BBA45FBD8FC83FE14F3BDCB35EE6D753 /* Support Files */ = {
@@ -1330,23 +1288,9 @@
 				F7E4598B7523B71BE0E4AD0904986AC8 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				626FB8DD2A830199570431EF01D7F864 /* Pods */,
-				DC7A8E94A51B729DDDD38BAE9B2C5BCA /* Products */,
-				B163EA9C73137FA550DEEC8866136B51 /* Targets Support Files */,
+				2682AB7E92D8E4D76EC9189D9B8EFED9 /* Products */,
+				FF9A6AB10564FB4338CC6C01CE38950A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DC7A8E94A51B729DDDD38BAE9B2C5BCA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A9E40FDD4D32DA2E9EC6B5791838147 /* LeigodAPM.framework */,
-				6173A7EFBF426B5D15AC5C31709E2F91 /* Pods-LeigodAPM_Example */,
-				174A247628224C1483857FDF88C8BC74 /* Pods-LeigodAPM_Tests */,
-				979486118B3E90C08386079D57962701 /* SnapKit */,
-				5DCCF5B5F792D4EC76585F50AC7D8D7B /* SQLiteRepairKit */,
-				3A669A12B69A63E0BEF5B0382A3A729B /* WCDB.swift */,
-				B3CF92365D6AE0F35C3602CF6C0872AE /* WCDBOptimizedSQLCipher */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F7E4598B7523B71BE0E4AD0904986AC8 /* Development Pods */ = {
@@ -1475,17 +1419,17 @@
 			path = WCDB.swift;
 			sourceTree = "<group>";
 		};
+		FF9A6AB10564FB4338CC6C01CE38950A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D70414AB832A1ACE8A34975BEA5441 /* Pods-LeigodAPM_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0ABC7D3AE9921A92E09D8A187BFE1A9D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3289DBC133E7AFF00D172AEEBD88FB4 /* Pods-LeigodAPM_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		265756F4D798FF07730CA928D2C6734F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1605,7 +1549,7 @@
 			);
 			name = LeigodAPM;
 			productName = LeigodAPM;
-			productReference = 5A9E40FDD4D32DA2E9EC6B5791838147 /* LeigodAPM.framework */;
+			productReference = 5A9E40FDD4D32DA2E9EC6B5791838147 /* LeigodAPM */;
 			productType = "com.apple.product-type.framework";
 		};
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
@@ -1624,25 +1568,6 @@
 			name = SnapKit;
 			productName = SnapKit;
 			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
-			productType = "com.apple.product-type.framework";
-		};
-		3D364A4E285EA2D3CFE4B4AF669994A8 /* Pods-LeigodAPM_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF94C91B038704689AA476D2B88A612C /* Build configuration list for PBXNativeTarget "Pods-LeigodAPM_Tests" */;
-			buildPhases = (
-				0ABC7D3AE9921A92E09D8A187BFE1A9D /* Headers */,
-				CF836AD2CF682838D474B6F00E3BAC64 /* Sources */,
-				8D4BE51088A475C87D52FCBC47087DA7 /* Frameworks */,
-				8AA5BF0A631B34609ED7C41D59559F54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B1BE9298F1E9617DB611B9F4E2790B4 /* PBXTargetDependency */,
-			);
-			name = "Pods-LeigodAPM_Tests";
-			productName = Pods_LeigodAPM_Tests;
-			productReference = 174A247628224C1483857FDF88C8BC74 /* Pods-LeigodAPM_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		46B68FB361B0E581CECCA815555333A6 /* SQLiteRepairKit */ = {
@@ -1743,13 +1668,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DC7A8E94A51B729DDDD38BAE9B2C5BCA /* Products */;
+			productRefGroup = 2682AB7E92D8E4D76EC9189D9B8EFED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				19056F1BAB56E14BE069C538B27CF165 /* LeigodAPM */,
 				9751390A022C36C073641F04BE82DF21 /* Pods-LeigodAPM_Example */,
-				3D364A4E285EA2D3CFE4B4AF669994A8 /* Pods-LeigodAPM_Tests */,
 				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 				46B68FB361B0E581CECCA815555333A6 /* SQLiteRepairKit */,
 				CA298FF53B6D582AE40929DFE1454BBD /* WCDB.swift */,
@@ -1767,13 +1691,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7C535EE1FFF83FEC8705787534A84B35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AA5BF0A631B34609ED7C41D59559F54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2070,7 +1987,6 @@
 				26E3D137307C8085FC65B894E60EECA1 /* RecordTableView.swift in Sources */,
 				653F277E30E2D29FDFEA561C462D8EBA /* RecordTableViewCell.swift in Sources */,
 				83906752ED0A9B27ED98E8A76B84833B /* System.swift in Sources */,
-				29D3AB0CB4E01EA492277763E82F2A84 /* UIColor+AppBaseKit.swift in Sources */,
 				44C9EC564F0E3A2AB02DB6477386CFA9 /* UIView+NNExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2128,14 +2044,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF836AD2CF682838D474B6F00E3BAC64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3B69B4F146318DA9A242B275CC6D719 /* Pods-LeigodAPM_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2150,12 +2058,6 @@
 			name = WCDBOptimizedSQLCipher;
 			target = 7AC2C6E1735146F1E0A04614976C5D18 /* WCDBOptimizedSQLCipher */;
 			targetProxy = 107BDA4D918C6BC111796391B461929A /* PBXContainerItemProxy */;
-		};
-		2B1BE9298F1E9617DB611B9F4E2790B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LeigodAPM_Example";
-			target = 9751390A022C36C073641F04BE82DF21 /* Pods-LeigodAPM_Example */;
-			targetProxy = 6EAD4EE41DCF47CC0EDF092CA06AEF9E /* PBXContainerItemProxy */;
 		};
 		4D480666B04449064887D18E545B3136 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2293,41 +2195,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		30FF156019DDD99CB8427745005964DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE4116A7D25C5134BD7BD0F714B27121 /* Pods-LeigodAPM_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LeigodAPM_Tests/Pods-LeigodAPM_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LeigodAPM_Tests/Pods-LeigodAPM_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2337,7 +2205,7 @@
 		};
 		3C8F267832A6DC37266761FC03AD8FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1306DEF22AF62B59F0A7127C0D83EAA0 /* Pods-LeigodAPM_Example.debug.xcconfig */;
+			baseConfigurationReference = 6EFB59A37EE82DA56D24B86AB687D739 /* Pods-LeigodAPM_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2424,40 +2292,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6E65D93E4BFA31A3A8042FE5E026833C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 601DCE9048BA2E72879D619EB0B9C355 /* Pods-LeigodAPM_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LeigodAPM_Tests/Pods-LeigodAPM_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LeigodAPM_Tests/Pods-LeigodAPM_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2619,7 +2454,7 @@
 		};
 		CE3F1A836C01E73F0C71375741A75C1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87CC7D74DDAAE6F33BA29FBCEFC4B346 /* Pods-LeigodAPM_Example.release.xcconfig */;
+			baseConfigurationReference = D527E19CA9B872A609B02149887D5FFE /* Pods-LeigodAPM_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2822,15 +2657,6 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF94C91B038704689AA476D2B88A612C /* Build configuration list for PBXNativeTarget "Pods-LeigodAPM_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E65D93E4BFA31A3A8042FE5E026833C /* Debug */,
-				30FF156019DDD99CB8427745005964DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

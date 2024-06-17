@@ -1,6 +1,0 @@
-framework module Pods_LeigodAPM_Tests {
-  umbrella header "Pods-LeigodAPM_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
