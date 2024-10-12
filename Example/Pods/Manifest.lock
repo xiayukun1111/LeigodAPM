@@ -1,5 +1,5 @@
 PODS:
-  - LeigodAPM (0.1.0):
+  - LeigodAPM (0.1.1):
     - SnapKit
     - WCDB.swift (~> 1.1.0)
   - SnapKit (5.6.0)
@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LeigodAPM: 9d15b3a8734b8a40e41caa596ddfba6e4ed92159
+  LeigodAPM: bc7aaa8668b7667434e17daa84f0faf91aced9a7
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SQLiteRepairKit: a66145aadae91886c800f75e16f5cc6476af1a93
   WCDB.swift: 39e28fe29b5a3bf2927d9fb9218978f19bd49ff0
@@ -33,4 +33,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b78f5ba56700c2fdde80048f001168933c752e42
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.15.2
