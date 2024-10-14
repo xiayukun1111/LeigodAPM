@@ -13,7 +13,7 @@ class BaseRecordViewModel: NSObject {
     private(set) var attributes = [NSAttributedString.Key.foregroundColor: UIColor.white,
                                    NSAttributedString.Key.font:UIFont.courier(with: 14)]
     
-    func contentString(with prefex:String?,content:String?,newline:Bool = false,color:UIColor = UIColor(hex: 0x3D82C7)) -> NSAttributedString {
+    func contentString(with prefex:String?,content:String?,newline:Bool = false,color:UIColor = UIColor(nnhex: 0x3D82C7)) -> NSAttributedString {
         let pre = prefex != nil ? "[\(prefex!)]:" : ""
         let line = newline == true ? "\n" : (pre == "" ? "" : " ")
         let str = "\(pre)\(line)\(content ?? "nil")\n"

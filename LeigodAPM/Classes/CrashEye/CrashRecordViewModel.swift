@@ -30,7 +30,7 @@ class CrashRecordViewModel: BaseRecordViewModel {
     
     private func headerString() -> NSAttributedString {
         let type = self.model.type == CrashModelType.exception.rawValue ? "Exception" : "SIGNAL"
-        return self.headerString(with: "CRASH", content: type, color: UIColor(hex: 0xDF1921))
+        return self.headerString(with: "CRASH", content: type, color: UIColor(nnhex: 0xDF1921))
     }
     
     private func nameString() -> NSAttributedString {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeigodAPM'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of LeigodAPM.'
 
 # This description is used to generate tags and improve search results.
@@ -32,14 +32,12 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.source_files = 'LeigodAPM/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LeigodAPM' => ['LeigodAPM/Assets/*.png']
-  # }
-
+#   s.resource_bundles = {
+#     'LeigodAPM' => ['LeigodAPM/Assets/*.png']
+#   }
+   s.resource = "LeigodAPM/*.bundle"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'WCDB.swift', '~> 1.1.0'
    s.dependency 'SnapKit'
-#   s.dependency 'NNKit'
-   
 end

@@ -30,18 +30,18 @@ extension UIColor {
 
 // MARK: - RGB
 extension UIColor {
-    convenience init(hex:Int, alpha:CGFloat = 1.0) {
-        let red: CGFloat = CGFloat((hex & 0xFF0000) >> 16) / 255.0
-        let green: CGFloat = CGFloat((hex & 0x00FF00) >> 8) / 255.0
-        let blue: CGFloat = CGFloat((hex & 0x0000FF)) / 255.0
+    public convenience init(nnhex:Int, alpha:CGFloat = 1.0) {
+        let red: CGFloat = CGFloat((nnhex & 0xFF0000) >> 16) / 255.0
+        let green: CGFloat = CGFloat((nnhex & 0x00FF00) >> 8) / 255.0
+        let blue: CGFloat = CGFloat((nnhex & 0x0000FF)) / 255.0
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
     
-    convenience init?(hexString:String,alpha:CGFloat = 1.0) {
-        let formatted = hexString.replacingOccurrences(of: "0x", with: "")
+    public convenience init?(nnhexString:String,alpha:CGFloat = 1.0) {
+        let formatted = nnhexString.replacingOccurrences(of: "0x", with: "")
                                  .replacingOccurrences(of:"#", with: "")
         if let hex = Int(formatted, radix: 16) {
-            self.init(hex: hex, alpha: alpha)
+            self.init(nnhex: hex, alpha: alpha)
         }
         return nil
     }

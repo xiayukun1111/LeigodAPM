@@ -16,8 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DED36A8595350541B96AFB8 /* LeigodAPM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeigodAPM.podspec; path = ../LeigodAPM.podspec; sourceTree = "<group>"; };
+		0DED36A8595350541B96AFB8 /* LeigodAPM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeigodAPM.podspec; path = ../LeigodAPM.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2345A2911861078216C8236E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C28F14D2CBD1EE4007A1E68 /* LeigodAPM.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = LeigodAPM.metal; sourceTree = "<group>"; };
+		3C28F1582CBD1F00007A1E68 /* APM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APM.swift; sourceTree = "<group>"; };
 		4087FF945C223D838C64EAD8 /* Pods-LeigodAPM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeigodAPM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LeigodAPM_Tests/Pods-LeigodAPM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LeigodAPM_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeigodAPM_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,11 +59,29 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3C28F14C2CBD1EE4007A1E68 /* LeigodAPM */ = {
+			isa = PBXGroup;
+			children = (
+				3C28F14D2CBD1EE4007A1E68 /* LeigodAPM.metal */,
+			);
+			path = LeigodAPM;
+			sourceTree = "<group>";
+		};
+		3C28F1572CBD1F00007A1E68 /* APM */ = {
+			isa = PBXGroup;
+			children = (
+				3C28F1582CBD1F00007A1E68 /* APM.swift */,
+			);
+			path = APM;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for LeigodAPM */,
+				3C28F14C2CBD1EE4007A1E68 /* LeigodAPM */,
+				3C28F1572CBD1F00007A1E68 /* APM */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3168B16F99584D67C25939D5 /* Pods */,
 				C750D0EFF76B59C2559FD642 /* Frameworks */,
@@ -128,7 +148,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				F8FEADDF892C17C35E51E552 /* [CP] Embed Pods Frameworks */,
+				01393CA1E33397807179E492 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,7 +165,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -188,29 +208,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BC1A71145E46947AD19401A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LeigodAPM_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8FEADDF892C17C35E51E552 /* [CP] Embed Pods Frameworks */ = {
+		01393CA1E33397807179E492 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,6 +232,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeigodAPM_Example/Pods-LeigodAPM_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BC1A71145E46947AD19401A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeigodAPM_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
