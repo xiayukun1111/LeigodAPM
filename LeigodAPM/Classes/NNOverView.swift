@@ -124,7 +124,7 @@ public class NNHoverView: UIView {
 
         titleLabel.frame = self.bounds
         titleLabel.backgroundColor = .clear
-        titleLabel.text = "设置"
+        titleLabel.text = "Debug"
         titleLabel.numberOfLines = 0
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
