@@ -46,15 +46,18 @@ open class CrashModel: NSObject {
     open var reason: String!
     open var appinfo: String!
     open var callStack: String!
+    open var time: String!
     
     init(type:CrashModelType,
          name:String,
+         time:String,
          reason:String,
          appinfo:String,
          callStack:String) {
         super.init()
         self.type = type
         self.name = name
+        self.time = time
         self.reason = reason
         self.appinfo = appinfo
         self.callStack = callStack
@@ -160,11 +163,19 @@ public class CrashEye: NSObject {
         let callStack = exteption.callStackSymbols.joined(separator: "\r")
         let reason = exteption.reason ?? ""
         let name = exteption.name
+        
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"  // Set the desired date format
+        let formattedDate = dateFormatter.string(from: date)
+        
+        let time = formattedDate
         let appinfo = CrashEye.appInfo()
         
         
         let model = CrashModel(type:CrashModelType.exception,
                                name:name.rawValue,
+                               time: time,
                                reason:reason,
                                appinfo:appinfo,
                                callStack:callStack)
@@ -185,9 +196,14 @@ public class CrashEye: NSObject {
         let callStack = stack.joined(separator: "\r")
         let reason = "Signal \(CrashEye.name(of: signal))(\(signal)) was raised.\n"
         let appinfo = CrashEye.appInfo()
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"  // Set the desired date format
+        let formattedDate = dateFormatter.string(from: date)
         
         let model = CrashModel(type:CrashModelType.signal,
                                name:CrashEye.name(of: signal),
+                               time: formattedDate,
                                reason:reason,
                                appinfo:appinfo,
                                callStack:callStack)

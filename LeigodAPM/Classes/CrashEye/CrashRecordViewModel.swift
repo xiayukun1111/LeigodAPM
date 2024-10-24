@@ -22,6 +22,7 @@ class CrashRecordViewModel: BaseRecordViewModel {
         
         result.append(self.headerString())
         result.append(self.nameString())
+        result.append(self.timeString())
         result.append(self.reasonString())
         result.append(self.appinfoString())
         result.append(self.callStackString())
@@ -44,7 +45,9 @@ class CrashRecordViewModel: BaseRecordViewModel {
     private func appinfoString() -> NSAttributedString {
         return self.contentString(with: "APPINFO", content: self.model.appinfo)
     }
-    
+    private func timeString() -> NSAttributedString {
+        return self.contentString(with: "Time", content: self.model.time)
+    }
     private func callStackString() -> NSAttributedString {
         let result = NSMutableAttributedString(attributedString: self.contentString(with: "CALL STACK", content: self.model.callStack))
         let  range = result.string.NS.range(of: self.model.callStack)
