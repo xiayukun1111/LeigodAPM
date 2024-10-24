@@ -48,7 +48,7 @@ class RecordTableViewCell: UITableViewCell {
 //            return new
 //        }()
     
-    private lazy var logTextView: UITextView = { [unowned self] in
+    lazy var logTextView: UITextView = { [unowned self] in
         let new = UITextView()
         new.isSelectable = false
         new.isEditable = false

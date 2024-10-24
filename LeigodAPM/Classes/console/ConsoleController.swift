@@ -24,6 +24,7 @@ public class ConsoleController: UIViewController {
     func setupUI() {
         setUpNavBar()
         self.navigationBar.title = "Crash 日志"
+        self.dataSource.tableView = self.recordTableView
         self.navigationBar.addNavRightButtons(buttons: [.text(title: "删除")]) { [weak self] result in
             self?.dataSource.cleanRecord()
             self?.recordTableView.reloadData()
